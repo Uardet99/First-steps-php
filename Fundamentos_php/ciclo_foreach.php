@@ -25,6 +25,10 @@ $alejandro = array('telefono' => 354637838, 'edad' => 20, 'pais' => 'mexico')
             /* foreach ($meses as $mes) {
                 echo $mes . '<br>';
             } */
+
+            # La variable alejandro contiene todos los datos
+            # La variable dato contiene el telefono, la edad y el pais
+            # La variable valor contiene los valores del telefono, edad y pais, es decir, 354637838, 20 y mexico
             foreach ($alejandro as $dato => $valor) {
                 echo $dato . ': ' .$valor . '<br>';
             }
